@@ -2,8 +2,7 @@ This is STEELEYE recruitment assignment (Strictly only for drive purpose can't b
 
 # Question 1
 
-The List component in the code renders an unordered list of SingleListItem component, it receives an array of items as prop, and creates a SingleListItem component for each of those items.
-The SingleListItem component renders a single <li> element and adds a onClick behaviour to it.
+The List component in the code renders an unordered list of SingleListItem component, it receives an array of items as prop, and creates a SingleListItem component for each of those items. The SingleListItem component renders a single <li> element and adds a onClick behaviour to it.
 
 # Question 2
 One of the major problem here is, the items prop for the List component is set to 'null' intially, rather it should be an empty array, JavaScript is not complaining but typescript will. 
